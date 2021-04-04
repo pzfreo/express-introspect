@@ -1,0 +1,31 @@
+{
+  "name": "@pzfreo/express-introspect",
+  "version": "1.0.7",
+  "description": "Simple OAuth2 introspection middleware for express",
+  "main": "introspect.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pzfreo/express-introspect.git"
+  },
+  "keywords": [
+    "oauth2",
+    "express",
+    "introspection"
+  ],
+  "author": "Paul Fremantle",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/pzfreo/express-introspect/issues"
+  },
+  "homepage": "https://github.com/pzfreo/express-introspect#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "express-bearer-token": "^2.4.0",
+    "querystring": "^0.2.1"
+  }
+}
