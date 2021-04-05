@@ -1,7 +1,8 @@
-import querystring from 'querystring';
-import axios from 'axios';
+const querystring = require('querystring');
+const axios = require('axios');
 
-export default function (url, username, password) {
+
+exports.introspect = function (url, username, password) {
     const f = async function (req, res, next) { 
         const auth = req.headers.authorization;
         if (!auth) return res.status(401).send({ error: "bearer token not found"});
